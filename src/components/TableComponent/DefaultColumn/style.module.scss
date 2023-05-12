@@ -1,0 +1,18 @@
+@import "../../../styles/vars";
+
+.input {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 2.75rem;
+  letter-spacing: -0.56px;
+  background-color: transparent;
+  color: $text-gray;
+  border: none;
+  cursor: text;
+  outline: none;
+}

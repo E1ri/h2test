@@ -1,0 +1,29 @@
+.table_container {
+  overflow-x: scroll;
+  max-width: 90%;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100vw;
+}
+
+.cell {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  user-select: none;
+  justify-content: center;
+  &_touch {
+    cursor: pointer;
+  }
+}
+
+.shevron {
+  position: absolute;
+  right: 0;
+  &_rev {
+    transform: rotate(180deg);
+  }
+}

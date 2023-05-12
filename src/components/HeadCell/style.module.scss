@@ -1,0 +1,13 @@
+@import "../../styles/vars";
+
+.head_cell {
+  padding: 10px;
+  height: 100%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 120%;
+  border: 1.5px solid $border-light;
+
+  color: #54d3c2;
+}

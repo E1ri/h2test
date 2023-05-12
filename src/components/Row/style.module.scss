@@ -1,0 +1,10 @@
+@import "../../styles/vars";
+
+.row {
+  &:nth-last-child(2n) {
+    background: $bg-dark;
+  }
+  &__default {
+    background-color: $bg;
+  }
+}

@@ -1,0 +1,13 @@
+@import "../../styles/vars";
+
+.cell {
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 2.75rem;
+  letter-spacing: -0.56px;
+  color: $text-gray;
+  user-select: none;
+  border: 1.5px solid $border-light;
+}
